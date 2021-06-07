@@ -1,7 +1,11 @@
-include ':app', ':wheelpicker', ":pn_sdk"
-
+include ':module_compat'
+include ':app'
+include ':module_router'
+include ':module_sip'
+include ':module_home'
+include ':basesdk'
+include ':linphonesdk'
 apply from: './base.gradle'
-
 gradle.ext {
     sdk = sdk
 }

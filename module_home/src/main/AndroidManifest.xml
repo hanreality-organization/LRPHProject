@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <application>
+        <activity android:name="com.punuo.sys.app.home.activity.PrivateActivity"/>
+        <activity android:name="com.punuo.sys.app.home.wx.WXMiniprogramEntryActivity"
+            android:exported="true"/>
+        <activity
+            android:name="com.punuo.sys.app.message.AddLikeActivity"
+            android:theme="@style/Theme.Pn.Translucent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.punuo.sys.app.message.CommentActivity"
+            android:theme="@style/Theme.Pn.Translucent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.punuo.sys.app.message.SystemNotifyActivity"
+            android:theme="@style/Theme.Pn.Translucent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.VideoRequestActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="com.punuo.sys.app.home.account.LoginActivity"
+            android:theme="@style/Theme.Pn.Translucent"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.punuo.sys.app.home.HomeActivity"
+            android:theme="@style/Theme.Pn.Translucent"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.punuo.sys.app.home.friendCircle.adapter.ImagePagerActivity"
+            android:theme="@style/Theme.Pn.ImagePager"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".publish.PublishActivity"
+            android:theme="@style/Theme.Pn.Translucent"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.punuo.sys.app.home.activity.UserInfoActivity"
+            android:theme="@style/Theme.Pn.Translucent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.punuo.sys.app.home.activity.UpdateNickActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.punuo.sys.app.home.account.ChangePasswordActivity"
+            android:theme="@style/Theme.Pn.Translucent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.VideoPlayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ServiceManagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.VideoReplyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.VideoCallActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.punuo.sys.app.home.activity.ContractManagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.punuo.sys.app.home.activity.FriendCallActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.SoftwareInstructActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.punuo.sys.app.home.account.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.punuo.sys.app.home.activity.MessageNotifyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.punuo.sys.app.home.account.BindPhoneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.punuo.sys.app.home.activity.DevBindSuccessActivity"
+            android:theme="@style/Theme.Pn.Translucent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.punuo.sys.app.home.activity.BindDevActivity"
+            android:theme="@style/Theme.Pn.Translucent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.punuo.sys.app.home.account.RegisterAccountActivity"
+            android:theme="@style/Theme.Pn.Translucent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.punuo.sys.app.home.account.ForgetPasswordActivity"
+            android:theme="@style/Theme.Pn.Translucent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.punuo.sys.app.home.account.VerifyCodeLoginActivity"
+            android:theme="@style/Theme.Pn.Translucent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.punuo.sys.app.home.account.ApplyPasswordActivity"
+            android:theme="@style/Theme.Pn.Translucent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.punuo.sys.app.home.friendCircle.FamilyCircleActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.punuo.sys.app.home.address.AddressDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.punuo.sys.app.home.address.AddressManagerActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.punuo.sys.app.home.album.CloudAlbumActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.punuo.sys.app.home.album.AlbumActivity"
+            android:screenOrientation="portrait"/>
+        <receiver android:name=".receiver.NetworkConnectChangedReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

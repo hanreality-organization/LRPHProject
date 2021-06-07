@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd64d"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/logo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="140dp"
+            android:src="@drawable/logo2" />
+
+        <TextView
+            android:id="@+id/tv_videostaus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textColor="#474646"
+            android:textSize="18sp"
+            android:text="正在等待对方接受邀请..."/>
+
+
+        <ImageView
+            android:id="@+id/iv_hangup"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="430dp"
+            android:src="@drawable/ic_hangup" />
+
+    </RelativeLayout>
+
+</LinearLayout>

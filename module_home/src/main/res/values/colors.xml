@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#f2c306</color>
+    <color name="bg_base">#f2f4f6</color>
+    <color name="newbackground">#ffd340</color>
+    <color name="newbackground1">#f8f8fa</color>
+    <color name="titile">#FF9900</color>
+    <color name="common_title_bg">#aa111213</color>
+    <color name="common_title_text">#ff565555</color>
+    <color name="image_bar">#f3b337</color>
+
+    <color name="red">#ff0000</color> <!-- 红色 -->
+    <!-- Android standard ICS color -->
+    <!-- Android standard ICS color -->
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="lightgary">#EEEEEE</color>
+    <color name="gary">#3D3D3F</color>
+    <color name="ll_background">#ADADAD</color>
+    <color name="bantouming">#7fffffff</color>
+    <color name="touming">#00000000</color>
+    <color name="micro_list_ignore">#8593B0</color>
+    <color name="Gray">#eeeeee</color>
+</resources>

@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">亲情视线</string>
+    <string name="message">消息</string>
+    <string name="home">首页</string>
+    <string name="person">我</string>
+    <string name="shop">商城</string>
+    <string name="community">社区</string><![CDATA[string>
+    ]]>
+    <string name="alirtc_permission">请先给予权限</string>
+    <!-- 存储文件文件夹 -->
+    <!-- 图像文件夹 -->
+    <!-- 缩略图文件夹 -->
+    <string name="Thumbnail">Thumbnail</string>
+    <!-- 视频文件夹 -->
+    <string name="Video">Video</string>
+
+    <string name="tip_phone_regex_not_right">手机号码格式不正确</string>
+    <string name="count_down">%ss</string>
+    <string name="tip_phone_can_not_be_empty">手机号码不能为空</string>
+    <string name="tip_password_not_same">旧密码输入错误</string>
+    <string name="tip_please_input_code">请输入验证码</string>
+    <string name="tip_please_input_6_32_password">请输入6-32个密码</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <!-- 上拉刷新，下来加载更多 -->
+
+
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+
+</resources>
