@@ -36,7 +36,7 @@ public abstract class BaseSwipeBackLoginActivity extends BaseSwipeBackActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        MobSDK.init(this, "213c5d90b2394", "793f08e685abc8a57563a8652face144");
+        MobSDK.init(this, "34994c754ee03", "5d8379c4fdf724b5e93bb80b49f8f218");
         SMSSDK.registerEventHandler(eventHandler);
     }
 
