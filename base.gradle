@@ -1,8 +1,8 @@
 //编译环境的统一
 ext.sdk = [
         packageName : 'com.punuo.sys.app.main',
-        versionCode : 6,
-        versionName : "3.0.0",
+        versionCode : 7,
+        versionName : "3.0.1",
         minSdkVersion          : 21,
         targetSdkVersion       : 26,
         compileSdkVersion      : 28,

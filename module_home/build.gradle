@@ -19,8 +19,8 @@ android {
     }
 
     MobSDK {
-        appKey "213c5d90b2394"
-        appSecret "793f08e685abc8a57563a8652face144"
+        appKey "34994c754ee03"
+        appSecret "5d8379c4fdf724b5e93bb80b49f8f218"
         SMSSDK {}
     }
 
